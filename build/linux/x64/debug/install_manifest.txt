@@ -1,0 +1,14 @@
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/working_orders_app_tablet
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/restman.png
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/packages/flutter_google_places/assets/google_white.png
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/packages/flutter_google_places/assets/google_black.png
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag

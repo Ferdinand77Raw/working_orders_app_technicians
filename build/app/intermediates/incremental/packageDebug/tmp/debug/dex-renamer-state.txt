@@ -1,0 +1,4 @@
+#Thu Oct 27 11:24:10 ART 2022
+base.0=/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

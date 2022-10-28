@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.working_orders_app_tablet"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:3:5-65
+16-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:3:22-62
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:4:5-81
+17-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:4:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:5:5-79
+18-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:5:22-76
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:6:5-77
+19-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:6:22-74
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:7:5-84
+20-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:7:22-82
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:8:5-81
+21-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:8:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Include required permissions for Google Maps API to run. -->
+22-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:9:5-80
+22-->/home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/android/app/src/main/AndroidManifest.xml:9:22-77
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+28
+29    <queries>
+29-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+30
+31        <!-- Needs to be explicitly declared on Android R+ -->
+32        <package android:name="com.google.android.apps.maps" />
+32-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+32-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+33    </queries>
+34
+35    <application
+36        android:name="android.app.Application"
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.8.0] /home/max77raw/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+40        android:label="working_orders_app_tablet" >
+41        <activity
+42            android:name="com.example.working_orders_app_tablet.MainActivity"
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44            android:exported="true"
+45            android:hardwareAccelerated="true"
+46            android:launchMode="singleTop"
+47            android:theme="@style/LaunchTheme"
+48            android:windowSoftInputMode="adjustResize" >
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+57                android:name="io.flutter.embedding.android.NormalTheme"
+58                android:resource="@style/NormalTheme" />
+59            <!-- <meta-data android:name="com.google.android.geo.API_KEY"> -->
+60            <intent-filter>
+61                <action android:name="android.intent.action.MAIN" />
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+71            android:name="flutterEmbedding"
+72            android:value="2" />
+73
+74        <provider
+74-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+75            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+75-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+76            android:authorities="com.example.working_orders_app_tablet.flutter.image_provider"
+76-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+77            android:exported="false"
+77-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+78            android:grantUriPermissions="true" >
+78-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+79            <meta-data
+79-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+81                android:resource="@xml/flutter_image_picker_file_paths" />
+81-->[:image_picker_android] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+82        </provider>
+83
+84        <service
+84-->[:location] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+85            android:name="com.lyokone.location.FlutterLocationService"
+85-->[:location] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+86            android:enabled="true"
+86-->[:location] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+87            android:exported="false"
+87-->[:location] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+88            android:foregroundServiceType="location" />
+88-->[:location] /home/max77raw/Escritorio/Flutter-project/working_orders_app_tablet/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+89
+90        <uses-library
+90-->[androidx.window:window:1.0.0-beta04] /home/max77raw/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.window.extensions"
+91-->[androidx.window:window:1.0.0-beta04] /home/max77raw/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0-beta04] /home/max77raw/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+93        <uses-library
+93-->[androidx.window:window:1.0.0-beta04] /home/max77raw/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+94            android:name="androidx.window.sidecar"
+94-->[androidx.window:window:1.0.0-beta04] /home/max77raw/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+95            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+95-->[androidx.window:window:1.0.0-beta04] /home/max77raw/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+96        <uses-library
+96-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+97            android:name="org.apache.http.legacy"
+97-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+98            android:required="false" />
+98-->[com.google.android.gms:play-services-maps:18.1.0] /home/max77raw/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:18.0.1] /home/max77raw/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:18.0.1] /home/max77raw/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:18.0.1] /home/max77raw/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:18.0.1] /home/max77raw/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:18.0.0] /home/max77raw/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:18.0.0] /home/max77raw/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:18.0.0] /home/max77raw/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+108    </application>
+109
+110</manifest>
