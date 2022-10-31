@@ -1,0 +1,7 @@
+scripts:
+  - name: Build for iOS         # Name of the section
+    script: flutter build ios   # The script(s) to be run in that section
+definitions: 
+  env_versions: &env_versions
+    xcode: latest 
+    cocoapods: default
